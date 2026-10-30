@@ -1,0 +1,89 @@
+# FrostPVP Reborn v4.1 — clean configuration. Old ability keys have been retired.
+# /frost config edits these active settings. Back up your old server config before updating.
+reborn:
+  sword:
+    cooldown-seconds: 28
+  battleaxe:
+    cooldown-seconds: 35
+  spear:
+    cooldown-seconds: 30
+  bow:
+    cooldown-seconds: 35
+  crossbow:
+    cooldown-seconds: 30
+  grapple:
+    cooldown-seconds: 28
+  riptide:
+    cooldown-seconds: 35
+  firework:
+    cooldown-seconds: 45
+  shield:
+    cooldown-seconds: 28
+  totem:
+    cooldown-seconds: 45
+  horn:
+    cooldown-seconds: 60
+  eclipse:
+    cooldown-seconds: 45
+  armor:
+    chestplate-extra-hearts: true
+    leggings-fire-resistance: true
+    boots-speed: true
+    boots-underwater-efficiency: 0.20
+    cooldown-hud: true
+    helmet-crouch-seconds: 5
+    helmet-radius: 10
+    helmet-cooldown-seconds: 120
+  pickaxe:
+    area-enabled: true
+events:
+  default-duration-minutes: 20
+  spawn-range-blocks: 450
+  koth-radius-blocks: 10
+  koth-capture-seconds: 90
+  boss-spawn-range-blocks: 40
+  titan-health: 6000.0
+  titan-chase-range-blocks: 85.0
+  titan-chase-speed-per-step: 0.48
+  titan-attack-radius-blocks: 24.0
+  titan-melee-damage-health-points: 6.0
+  titan-max-damage-per-hit: 96.0
+  titan-damage-received-multiplier: 1.0
+  titan-hit-scaling-v327: false
+  meteor-impact-radius-blocks: 7
+  meteor-flight-seconds: 7
+  meteor-area-side-blocks: 2500.0
+  meteor-min-host-distance-blocks: 325.0
+  meteor-reveal-exact-coordinates: false
+  chosen-tag-protection-seconds: 2
+  treasure-underground-chance-percent: 45.0
+visuals:
+  passive-frost-particles: true
+  particle-interval-ticks: 10
+  particle-count: 5
+tooltips:
+  gradient-text: true
+  custom-background-enabled: true
+hud:
+  enabled: true
+
+# Shared server teams. Teams and 54-slot chest inventories persist in teams.yml.
+teams:
+  homes-enabled: true
+  max-homes: 3
+  warps-enabled: true
+  max-warps: 3
+  echests-enabled: true
+  tpa-enabled: true
+
+# Independent per-player soundtrack controller (one music disc track at a time).
+music:
+  end:
+    enabled: true
+    radius-blocks: 180
+  trial:
+    enabled: true
+    radius-blocks: 32
+  wither:
+    enabled: true
+    radius-blocks: 64

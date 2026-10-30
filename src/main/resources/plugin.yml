@@ -1,0 +1,38 @@
+name: FrostPVP
+version: 4.3.3-beta1
+main: com.example.punchsnowball.PunchSnowballPlugin
+api-version: '1.21.11'
+description: Frost weapons, server events, PvP abilities and particles
+commands:
+  frost:
+    description: Frost weapons, event GUI, event commands, trust and settings
+    usage: /frost
+permissions:
+  frost.menu:
+    description: Open Frost weapon selection GUI to obtain custom weapons
+    default: op
+  frost.reload:
+    description: Reload Frost config
+    default: op
+  frost.config:
+    description: Open the in-game Frost settings GUI
+    default: op
+  frost.team:
+    description: Use team home, warp, shared chest and teleport requests
+    default: true
+  frost.adminteam:
+    description: Create and manage Frost teams
+    default: op
+  frost.trust:
+    description: Manage your own trusted-player list
+    default: true
+  frost.resetcooldowns:
+    description: Reset all Frost weapon ability cooldowns
+    default: op
+
+  frost.grace:
+    description: Start or stop the 30-minute server-wide grace period
+    default: op
+  frost.event:
+    description: Start, stop and configure Frost server events
+    default: op
